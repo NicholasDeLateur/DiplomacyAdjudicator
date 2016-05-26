@@ -4,6 +4,8 @@
 # There are only armies
 # All spaces connect to all other spaces
 
+# This is a comment to test how git deals with me changing the master branch after someone has already submitted a PR
+
 import math
 
 class Unit:
