@@ -9,7 +9,9 @@
 import math
 
 class Unit:
-    pass
+    def __repr__(self):
+        return self.location
+
     def __init__(self):
         self.type = ''
         self.location = ''
@@ -18,6 +20,7 @@ class Unit:
         self.attack = 1
         self.defense = 1
         self.moving = True
+
     def PrintInfo(self):
         print("This unit is the", self.power, self.type, "at", self.location)
 
